@@ -1,0 +1,169 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+header {
+    background-color:  #FFF;
+    border-bottom: 1px solid #CCC;
+
+}
+
+.container-fluid {
+   padding: 0;
+}
+
+.btn-primary {
+    background-color: #F2A340;
+    border: 2px solid #C28008;
+}
+.btn-primary:hover{
+    background-color: #C28008;
+    border: 2px solid #C28008;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155715;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/** navbar**/
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+.navbar-nav {
+    margin-right: 5px;
+
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 0;
+}
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+#navbar a:hover {
+    font-size: 14px;
+    color: #F2A340;
+}
+/** search container **/
+
+#search-container {
+    background-image: url("../img/card.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color: #FFF;
+    margin-bottom: 30px;
+    text-shadow: -1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
+    font-weight: 900px;
+}
+
+#search-container form{
+    width: 50%;
+    margin: auto;
+}
+
+/** Event list **/
+
+#events-container{
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#events-container h2{
+    margin-bottom: 10px;
+}
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+#cards-container{
+    display: flex;
+}
+
+#events-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 20px;
+    padding: 0;
+    margin: .5%;
+}
+#events-container img{
+    max-height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+
+}
+.card .card-title {
+    font-size: 20px;
+    color: #212121;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.card-participants{
+    font-size: 14px;
+    color:#757575
+}
+
+/** Event create page **/
+.form-create-event{
+    margin-top: 50px ;
+}
+
+.title-cadastro{
+    text-align: center;
+    text-shadow : 5px 5px 10px #353E48;
+}
+
+.btn-primary-cadastro{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #212121;
+    padding: 6px 6px 8px 10px;
+}
+
+/** footer da pagina **/
+
+footer{
+    text-align: center;
+    background-color: #353E48;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
